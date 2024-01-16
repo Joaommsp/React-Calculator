@@ -1,0 +1,31 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+  width: 100%;
+  height: 100vh;
+  background-color: #191919;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`
+
+export const Content = styled.div`
+  background-color: #191919;
+  width: 50%;
+`
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+`
+
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+`
